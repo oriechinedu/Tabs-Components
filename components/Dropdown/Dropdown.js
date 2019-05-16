@@ -25,6 +25,4 @@ class Dropdown {
 
 
 // Nothing to do here, just study what the code is doing and move on to the Dropdown class
-// let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));
-const dropdown = document.querySelector('.dropdown')
-new Dropdown(dropdown)
+let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));
